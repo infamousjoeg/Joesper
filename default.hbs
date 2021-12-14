@@ -34,13 +34,13 @@
         <nav class="gh-head-inner inner gh-container">
 
             <div class="gh-head-brand">
-                <a class="gh-head-logo" href="{{@site.url}}">
+                <!--<a class="gh-head-logo" href="{{@site.url}}">
                     {{#if @site.logo}}
                         <img src="{{@site.logo}}" alt="{{@site.title}}" />
                     {{else}}
                         {{@site.title}}
                     {{/if}}
-                </a>
+                </a>-->
                 <a class="gh-burger" role="button">
                     <div class="gh-burger-box">
                         <div class="gh-burger-inner"></div>
@@ -52,12 +52,16 @@
             </div>
             <div class="gh-head-actions">
                 <div class="gh-social">
-                    {{#if @site.facebook}}
+                    <!--{{#if @site.facebook}}
                         <a class="gh-social-facebook" href="{{facebook_url @site.facebook}}" title="Facebook" target="_blank" rel="noopener">{{> "icons/facebook"}}</a>
-                    {{/if}}
+                    {{/if}}-->
+                    <a class="gh-social-github" href="https://github.com/infamousjoeg" title="GitHub" target="_blank" rel="noopener">{{> "icons/github"}}</a>
+                    <a class="gh-social-youtube" href="https://youtube.com/infamousjoeg" title="YouTube" target="_blank" rel="noopener">{{> "icons/youtube"}}</a>
+                    <a class="gh-social-twitch" href="https://twitch.tv/infamousjoeg" title="Twitch" target="_blank" rel="noopener">{{> "icons/twitch"}}</a>
                     {{#if @site.twitter}}
                         <a class="gh-social-twitter" href="{{twitter_url @site.twitter}}" title="Twitter" target="_blank" rel="noopener">{{> "icons/twitter"}}</a>
                     {{/if}}
+                    <a class="gh-social-linkedin" href="https://linkedin.com/in/infamousjoeg" title="LinkedIn" target="_blank" rel="noopener">{{> "icons/linkedin"}}</a>
                 </div>
 
                 {{#unless @member}}
@@ -81,7 +85,6 @@
             <nav class="site-footer-nav">
                 {{navigation type="secondary"}}
             </nav>
-            <div><a href="https://ghost.org/" target="_blank" rel="noopener">Powered by Ghost</a></div>
         </div>
     </footer>
 
