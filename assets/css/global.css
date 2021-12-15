@@ -22,7 +22,7 @@
     font-family: 'Victor Mono';
     src: url('../fonts/VictorMono-Oblique.woff2') format('woff2'),
         url('../fonts/VictorMono-Oblique.woff') format('woff');
-    font-style: italic, oblique;
+    font-style: oblique;
 }
 @font-face {
     font-family: 'Victor Mono';
@@ -458,6 +458,7 @@ h1 {
     margin: 0 0 0.5em 0;
     font-size: 4.8rem;
     font-weight: 700;
+    font-style: italic;
     letter-spacing: -0.015em;
 }
 @media (max-width: 600px) {
