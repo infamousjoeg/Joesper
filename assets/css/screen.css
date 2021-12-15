@@ -173,7 +173,6 @@ production stylesheet in assets/built/screen.css
 .gh-head {
     padding: 1vmin 4vmin;
     font-size: 1.6rem;
-    font-weight: bold;
     line-height: 1.3em;
     color: #fff;
     background: var(--ghost-accent-color);
@@ -243,6 +242,7 @@ production stylesheet in assets/built/screen.css
 
 .gh-head-menu .nav a {
     display: inline-block;
+    font-weight: bold;
     padding: 5px 0;
     opacity: 0.8
 }
