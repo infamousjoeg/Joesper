@@ -173,6 +173,7 @@ production stylesheet in assets/built/screen.css
 .gh-head {
     padding: 1vmin 4vmin;
     font-size: 1.6rem;
+    font-weight: bold;
     line-height: 1.3em;
     color: #fff;
     background: var(--ghost-accent-color);
@@ -306,7 +307,7 @@ a.gh-head-button {
     display: block;
     padding: 8px 15px;
     color: var(--button-text-color, var(--color-darkgrey));
-    font-weight: 500;
+    font-weight: bold;
     letter-spacing: -0.015em;
     font-size: 1.5rem;
     line-height: 1em;
@@ -1671,6 +1672,7 @@ iframe.instagram-media + script + :not([id]) {
 
 .site-footer a {
     color: rgba(255,255,255,0.7);
+    font-weight: bold;
 }
 
 .site-footer a:hover {
