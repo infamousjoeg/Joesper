@@ -35,8 +35,10 @@ into the {body} tag of the default.hbs template --}}
 
             <h1 class="article-title">{{title}}</h1>
 
+            {{content}}
+
             <div class="contact-form">
-                <form id="fs-frm" class="contact-form" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mayvqard" method="post">
+                <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mayvqard" method="post">
                     <fieldset id="fs-frm-inputs">
                         <label for="full-name">Full Name</label>
                         <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
@@ -49,8 +51,6 @@ into the {body} tag of the default.hbs template --}}
                     <input type="submit" value="Submit">
                 </form>
             </div>
-
-            {{content}}
 
         </section>
 
