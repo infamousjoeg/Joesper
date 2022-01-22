@@ -46,7 +46,6 @@ into the {body} tag of the default.hbs template --}}
                             <span class="byline-reading-time"><span class="bull">&bull;</span> {{reading_time}}</span>
                         </div>
                     </div>
-                    <div>{{> share-block}}</div>
                 </section>
             </div>
 
@@ -74,6 +73,7 @@ into the {body} tag of the default.hbs template --}}
             {{content}}
         </section>
 
+        <div>{{> share-block}}</div>
         {{!--
         <section class="article-comments gh-canvas">
             If you want to embed comments, this is a good place to paste your code!
